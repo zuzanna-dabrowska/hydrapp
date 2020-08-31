@@ -27,4 +27,14 @@ body {
   }
 }
 
-
+.button {
+  display: block;
+  text-align: center;
+  margin: 2%;
+  &__add {
+    margin: 2%;
+  }
+  &__delate {
+    margin: 2%;
+  }
+}
