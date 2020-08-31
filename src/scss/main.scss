@@ -5,12 +5,26 @@
 body {
   background: $wtf;
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  box-sizing: border-box;
   min-height: 100vh;
 }
 
 .header {
-  
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 30px;
 }
+
+.hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__logo {
+    box-sizing: border-box;
+  }
+}
+
+
